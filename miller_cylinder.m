@@ -1,5 +1,5 @@
 %% MAE 423 Final Project: Cylinder
-%  Delaney Miller and Jason Mulderrig
+%  Delaney Miller
 %  17 January 2016
 
 % Numerically simulate flow with heat transfer over a circular cylinder
@@ -379,5 +379,5 @@ freq = freq_obs / (fps * tsf * dt);
 d = 2 * radius * h;  % diameter of cylinder (m)
 St = freq*d/u0;  % Strouhal number estimate
 
-% Our results yielded an estimated Strouhal number of 0.2264, which is
+% The results yielded an estimated Strouhal number of 0.2264, which is
 % a litlte larger than the experimental result of 0.2.
